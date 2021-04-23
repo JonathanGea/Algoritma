@@ -49,9 +49,6 @@ inline int LCS() // untuk mendpatakan panjang dari LCS
 
 }
 
-
-
-
 inline string getLCS() //untuk mendapatkan LCS
 {
     string ret;
@@ -75,7 +72,7 @@ inline string getLCS() //untuk mendapatkan LCS
         else
             jj--; // bergerak ke atas (jj-1)
 
-        printf("| %d  ++  %d |\n", ii, jj); // melihat proses
+    // #    printf("| %d  ++  %d |\n", ii, jj); // melihat proses
     }
     while (!S.empty())
     {
@@ -99,5 +96,6 @@ int main()
 }
 
 
-/*  The longest common subsequence  (LCS) didefinisikan sebagai urutan terpanjang yang umum untuk semua urutan yang diberikan,
-asalkan elemen urutan tidak diharuskan untuk menempati posisi berurutan dalam urutan asli. */
+/*  longest common subsequence  (LCS) adalah . sebuah subsequence ( sequence yang diturunkan dari 
+    sequence lain dengan menghapus beberapa elemen tanpa mengganti urutan dari sisa element tersebut) 
+    terpanjang dari kedua sequence  */
